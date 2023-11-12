@@ -4,7 +4,7 @@ pipeline {
         stage('git code') {
             when {
                 not {
-                 branch 'dev'
+                 branch 'master'
                }
             }
             steps {
